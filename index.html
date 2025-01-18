@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="weather-app">
+    <form id="search-form">
+      <input type="text" id="search-form-input" placeholder="Enter a city" autofocus>
+      <button type="submit">Search</button>
+    </form>
+    <div class="weather-info">
+      <h1 id="city">City</h1>
+      <div id="temperature-container">
+        <span id="temperature">--</span>°C
+      </div>
+      <div id="description">--</div>
+      <div>Humidity: <span id="humidity">--</span>%</div>
+      <div>Wind: <span id="wind-speed">--</span> km/h</div>
+      <div id="time">--</div>
+      <div id="icon"></div>
+    </div>
+    <div id="forecast" class="weather-forecast"></div>
+  </div>
+  <footer>
+    This project was coded by 
+    <a href="https://github.com/NtombifuthiRoseMashinini" target="_blank">Ntombifuthi Rose Mashinini</a> 
+    and is hosted on 
+    <a href="https://netlify.app" target="_blank">Netlify</a>.
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
